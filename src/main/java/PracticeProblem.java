@@ -15,7 +15,7 @@ public class PracticeProblem {
 		//Write question 1 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input an integer: ");
-		String word = "5" + input.nextLine();
+		String word = 5 + input.nextLine();
 		System.out.println(Integer.parseInt(word) + 5);
 	}
 
@@ -23,7 +23,7 @@ public class PracticeProblem {
 		//Write question 2 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
-		String word = "4" + input.nextLine() + "3";
+		String word = 4 + input.nextLine() + 3;
 		System.out.println(Double.parseDouble(word) + 3.4);
 	}
 
@@ -39,7 +39,7 @@ public class PracticeProblem {
 		//Write question 4 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input an integer: ");
-		String word = input.nextLine() + "3";
+		String word = input.nextLine() + 3;
 		int num = Integer.parseInt(word) + 2;
 		System.out.println((char)num);
 	}
@@ -48,7 +48,7 @@ public class PracticeProblem {
 		//Write question 5 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input an integer: ");
-		String word = input.nextLine() + "1";
+		String word = input.nextLine() + 1;
 		int num = Integer.parseInt(word) / 2;
 		System.out.println((double)num);
 	}
@@ -57,7 +57,7 @@ public class PracticeProblem {
 		//Write question 6 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
-		String word = "1" + input.nextLine();
+		String word = 1 + input.nextLine();
 		double number = Double.parseDouble(word);
 		System.out.println((int)number);
 	}
